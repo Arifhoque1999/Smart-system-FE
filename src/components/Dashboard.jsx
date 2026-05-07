@@ -58,7 +58,7 @@ function Dashboard() {
             fetchTasks();
             fetchUsers();
         }
-    }, []);
+    }, [navigate]);
 
     // Handle Input
     const handleChange = (e) => {
